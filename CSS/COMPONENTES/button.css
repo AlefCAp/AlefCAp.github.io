@@ -1,0 +1,20 @@
+.button {
+    display: inline-block;
+    background-color: #006765;
+    box-shadow: 3px 5px 0px #000C27;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Fira Code', 'sans-serif';
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    transition: transform 100ms linear;
+}
+
+.button:hover {
+    transform: scale(1.08);
+}
