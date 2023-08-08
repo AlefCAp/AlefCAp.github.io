@@ -4,4 +4,10 @@
     font-weight: 300;
     font-size: 60px;
     color: #fff;
+    text-shadow: 3px 5px 0px #000C27;
+}
+
+.title.-second {
+    text-shadow: none;
+    font-size: 45px;
 }
