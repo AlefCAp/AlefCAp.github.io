@@ -7,3 +7,13 @@
     margin-top: 30px;
     text-shadow: 3px 5px 0px #000C27;
 }
+
+.paragraph.-second {
+    text-shadow: none;
+    font-size: 30px;
+    width: 1000px;
+    margin: 200px 0px 0px 0px;
+    border: 4px solid #fff;
+    border-radius: 35px;
+    padding: 20px;
+}

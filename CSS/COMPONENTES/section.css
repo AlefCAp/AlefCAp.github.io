@@ -5,3 +5,14 @@
     padding: 50px 0px 0px 0px;
     border-bottom: 6px solid #000C27;
 }
+
+.section .sobre {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section .foto {
+    width: 400px;
+    border: 6px solid #cfcfcf;
+    margin: 50px 0px 0px 0px;
+}
