@@ -9,13 +9,13 @@
 
 .banner .wrapper {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .banner .gif {
     height: 700px;
     width: 400px;
-    margin: 0px 0px 0px 150px;
+    margin: 0px 0px 0px 0px;
 }
 
 .banner .text {
