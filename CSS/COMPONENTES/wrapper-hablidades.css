@@ -1,0 +1,21 @@
+.wrapper-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    max-width: 960px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper-habilidades .skill-tec {
+    width: 430px;
+}
+
+.wrapper-habilidades .skill-tec:nth-child(odd) {
+    margin-right: 100px;
+}
+
+.wrapper-habilidades .progress-bar {
+    width: 320px;
+}
