@@ -9,14 +9,14 @@
 
 .progress-bar::-webkit-progress-bar,
 .progress-bar::-webkit-progress-value {
-    width: 25%;
+    width: 5%;
     background-color: #30DEAB;
 
 }
 
 .progress-bar.-medium::-webkit-progress-bar,
 .progress-bar.-medium::-webkit-progress-value {
-    width: 50%;
+    width: 25%;
     background-color: #30DEAB;
 
 }
