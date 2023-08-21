@@ -1,0 +1,6 @@
+.wrapper-formaçao {
+    display: flex;
+    justify-content: center;
+    height: 570px;
+    margin-top: 40px;
+}

@@ -13,6 +13,7 @@
     text-align: center;
     padding: 20px 0px 0px 0px;
     transition: transform 100ms linear;
+    margin-right: 30px;
 }
 
 .button.-cv:hover {

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./CSS/COMPONENTES/button.css">
     <link rel="stylesheet" href="./CSS/COMPONENTES/banner.css">
     <link rel="stylesheet" href="./CSS/COMPONENTES/section.css">
+    <link rel="stylesheet" href="./CSS/COMPONENTES/wrapper-formacao.css">
     <link rel="stylesheet" href="./CSS/COMPONENTES/wrapper-hablidades.css">
     <link rel="stylesheet" href="./CSS/COMPONENTES/skill-tec.css">
     <link rel="stylesheet" href="./CSS/COMPONENTES/progress-bar.css">
@@ -30,18 +31,18 @@
 
 <body>
     <header class="header">
-        <a class="logo" href="" lang="pt-BR">AlefCAp</a>
+        <a class="logo" href="#inicio" lang="pt-BR">AlefCAp</a>
 
         <nav>
-            <a class="navegation" href="#sobre" lang="pt-BR">Sobre</a>
+            <a class="navegation" href="#sobre" lang="pt-BR">Sobre Mim</a>
+            <a class="navegation" href="#formaçao" lang="pt-BR">Formação</a>
             <a class="navegation" href="#habilidades" lang="pt-BR">Habilidades</a>
             <a class="navegation" href="#repositorios" lang="pt-BR">Repositórios</a>
-            <a class="navegation" href="" lang="pt-BR">Contato</a>
             <a class="button -cv" href="" lang="en"> Download CV</a>
         </nav>
     </header>
-    
-    <section class="banner">
+
+    <section id="inicio" class="banner">
         <div class="wrapper">
             <div class="gif">
                 <img src="../IMG/gosth.gif" alt="fantasma">
@@ -54,8 +55,7 @@
         </div>
     </section>
 
-    <a name="sobre"></a>
-    <section class="section -sobre">
+    <section id="sobre" class="section -sobre">
         <h2 class="main-title -second">Sobre Mim</h2>
 
         <div class="sobre">
@@ -73,8 +73,17 @@
         </div>
     </section>
 
-    <a name="habilidades"></a>
-    <section class="section -habilidades">
+    <section id="formaçao" class="section -formaçao">
+        <h2 class="main-title -tirtle">Formação</h2>
+
+        <div class="wrapper-formaçao">
+            <img class="monitor" src="./IMG/monitor.png" alt="">
+        </div>
+        
+
+    </section>
+
+    <section id="habilidades" class="section -habilidades">
         <h2 class="main-title -second">Habilidades</h2>
 
         <div class="wrapper-habilidades">
@@ -110,7 +119,7 @@
 
                 <div class="right">
                     <h3 class="title">React</h3>
-                    <progress class="progress-bar" max="100" value="0">0%</progress>
+                    <progress class="progress-bar" max="100" value="5">5%</progress>
                 </div>
             </article>
 
@@ -134,8 +143,7 @@
         </div>
     </section>
 
-    <a name="repositorios"></a>
-    <section class="section -repositorios">
+    <section id="repositorios" class="section -repositorios">
         <h2 class="main-title -second">Repositórios</h2>
 
             <div class="wrapper-arcade">
@@ -146,15 +154,17 @@
                         <div class="arcade -iron"></div>
                         <div class="arcade -ball"></div>
                     </div>
+
                     <h3 class="arcade -alert">¡BROKEN!</h3>
                 </div>
 
                 <div class="arcade -buttons">
                     <div class="arcade -repositorios1">
-                        <a class="arcade -repositorio">HTML5</a>
-                        <a class="arcade -repositorio">CSS3</a>
-                        <a class="arcade -repositorio">GIT</a>
+                        <a class="arcade -repositorio" href="https://github.com/AlefCAp/comandos-html">HTML5</a>
+                        <a class="arcade -repositorio" href="https://github.com/AlefCAp/comandos-css">CSS3</a>
+                        <a class="arcade -repositorio" href="https://github.com/AlefCAp/comandos-git">GIT</a>
                     </div>
+
                     <div class="arcade -repositorios2">
                         <a class="arcade -repositorio"></a>
                         <a class="arcade -repositorio"></a>

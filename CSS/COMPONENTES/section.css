@@ -17,10 +17,15 @@
     margin: 50px 0px 0px 150px;
 }
 
-.section.-habilidades {
+.section.-formaçao {
     background-color: #006764;
+}
+
+.section.-habilidades {
+    background-color: #1F4F75;
 }
 
 .section.-repositorios {
     background-color: #4FA3A7;
 }
+
