@@ -3,3 +3,25 @@
     justify-content: center;
     margin: 90px 0px 0px 0px;
 }
+
+.wrapper-arcade .joystick {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 800px;
+    margin: 0px 50px 0px 0px;
+}
+
+.wrapper-arcade .components {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-arcade .repositorios-1 {
+    display: flex;
+}
+
+.wrapper-arcade .repositorios-2 {
+    display: flex;
+    margin: 30px 0px 0px 100px;
+}

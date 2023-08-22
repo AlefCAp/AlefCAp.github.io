@@ -1,6 +1,10 @@
 .wrapper-formaçao {
     display: flex;
     justify-content: center;
-    height: 570px;
-    margin-top: 40px;
+    align-items: center;
+}
+
+.wrapper-formaçao .terminal {
+    height: 625px;
+    margin-top: 35px;
 }

@@ -19,3 +19,37 @@
 .button.-cv:hover {
     transform: scale(1.08);
 }
+
+.button.-repositorio {
+    background-color: #7a4451;
+    width: 230px;
+    height: 135px;
+    border: 5px solid #300f17;
+    border-radius: 50%;
+    box-shadow: 
+    15px 15px 0px #502834,
+    18px 17px 0px #000,
+    40px 35px 0px #2d10171f;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Press Start 2P', 'sans-serif';
+    font-size: 35px;
+    color: #ff9b9b;
+    padding: 105px 0px 0px 0px;
+    transition: transform 150ms linear;
+    margin: 0px 30px 0px 20px;
+}
+
+.button.-repositorio:hover {
+    position: relative;
+    box-shadow: 
+    10px 8px 0px #502834,
+    13px 10px 0px #000,
+    35px 30px 0px #2d10171f;
+    transform: translate(5px, 6px);
+}
+
+.button.-repositorio:active {
+    transform: translate(17px,20px);
+    box-shadow: 4px 1px 0px #000;
+}

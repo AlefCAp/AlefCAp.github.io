@@ -1,0 +1,63 @@
+.component.-base {
+    background-color: #5f2f3d;
+    width: 310px;
+    height:310px;
+    border: 5px solid #300f17;
+    border-radius: 50%;
+    box-shadow: 
+    5px 5px 0px #3d1f28,
+    7px 6px 0px #000,
+    20px 15px 0px #2d10171f;
+    position: relative;
+}
+
+.component.-point {
+    background-color: #291419;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    right: 180px;
+}
+
+.component.-iron {
+    background-color: #808080;
+    width: 135px;
+    height: 20px;
+    border: 3px solid #300f17;
+    border-left: 10px solid #000;
+    border-radius: 15%;
+    transform: rotate(-70deg);
+    position: relative;
+    box-shadow: 
+    -2px 0px 0px #000000c2,
+    1px 10px 0px #0000001f;
+}
+
+.component.-ball {
+    background-color: #7a4451;
+    width: 125px;
+    height: 125px;
+    border: 5px solid #300f17;
+    border-radius: 50%;
+    box-shadow: 25px 20px 0px #0000001f;
+    position: relative;
+    right: 200px;
+    bottom: 120px;
+}
+
+.component.-alert {
+    display: flex;
+    background-color: #c41026;
+    height: 90px;
+    color: #fff;
+    font-family: 'Press Start 2P';
+    font-size: 70px;
+    align-items: center;
+    box-shadow: 10px -10px 0px #000;
+    position: absolute;
+    margin: 0px 170px 0px 0px;
+    transform: rotate(-20deg);
+    opacity: 60%;
+}
